@@ -2,7 +2,7 @@ package kr.or.aesop;
 
 public class HelloWorld {
 	static {
-		System.load("helloworld.so");
+		System.load("/Users/csh/Library/helloworld.so");
 	}
 	public static void main(String args[]) {
 		HelloWorld h = new HelloWorld();
