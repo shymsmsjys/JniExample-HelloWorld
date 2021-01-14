@@ -23,7 +23,7 @@ gcc -fPIC -c -I$JAVA_HOME/include -I$JAVA_HOME/include/darwin helloworld.c
 
 * make so file
 
-gcc -shared -WI,-soname,helloworld.so -o helloworld.so helloworld.o
+gcc -shared -Wl,-soname,helloworld.so -o helloworld.so helloworld.o
 
 * run
 
